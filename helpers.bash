@@ -4,6 +4,7 @@ alias diffuncachedw="git diff -w > $DIFF_FILE"
 alias diffcached="git diff --cached > $DIFF_FILE"
 alias diffcachedw="git diff -w --cached > $DIFF_FILE"
 alias diffhead="git diff HEAD^ > $DIFF_FILE"
+alias diffinthead="git diff integration HEAD > $DIFF_FILE"
 
 alias ls='ls -lGFh'
 
