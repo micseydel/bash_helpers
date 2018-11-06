@@ -12,8 +12,14 @@ alias ls='ls -lGFh'
 
 alias uuid="python3 -c 'import uuid; print(uuid.uuid4(), end=\"\")'"
 
+# gets the ctime of given milliseconds since the epoche
 ctime() {
   python3 -c "from time import ctime; print(ctime($1 / 1000))"
+}
+
+# gets the ctime of given seconds since the epoche
+ctimes() {
+  python3 -c "from time import ctime; print(ctime($1))"
 }
 
 commitrebase() {
