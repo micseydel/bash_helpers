@@ -7,6 +7,8 @@ alias diffhead="git diff HEAD^ > $DIFF_FILE"
 alias diffheadw="git diff -w HEAD^ > $DIFF_FILE"
 alias diffinthead="git diff integration HEAD > $DIFF_FILE"
 alias diffintheadw="git diff -w integration HEAD > $DIFF_FILE"
+alias diffmasterhead="git diff master HEAD > $DIFF_FILE"
+alias diffmasterheadw="git diff -w master HEAD > $DIFF_FILE"
 
 alias ls='ls -lGFh'
 
